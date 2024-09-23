@@ -8,30 +8,26 @@
 <body>
 <form>
     <div><br><br>
-        +
-        <label for="vnaam">Voornaam:</label>
-        <input type="text" id="vnaam" required><br>
+        <label for="firstname">Voornaam:</label>
+        <input type="text" id="firstname" required><br>
     </div><br>
 <div>
-    <label for="anaam">Achternaam:</label>
-    <input type="text" id="anaam" required>
+    <label for="surname">Achternaam:</label>
+    <input type="text" id="surname" required>
 </div>
 <br>
 Geslacht:
 <div>
     <label for="man">Man</label>
-    <input type="radio" name="Geslacht" id="man" checked>
+    <input type="radio" name="Geslacht" id="man" value="Man" checked>
 </div>
 <div>
     <label for="vrouw">Vrouw</label>
-    <input type="radio" name="Geslacht" id="vrouw">
+    <input type="radio" name="Geslacht" id="vrouw" value="Vrouw">
 </div>
-<div>
-    <label for="anders">Anders</label>
-    <input type="radio" name="Geslacht" id="anders">
-</div>
-<br>
-<br>
+
+<br><br>
+
 <div>
     <label for="land">Land:</label>
     <input type="text" name="" id="land" required>
@@ -62,10 +58,11 @@ Geslacht:
     <label for="">Vakantieland:</label>
 
     <select name="" id="">
-        <option value="">Zweden</option>
-        <option value="">Duitsland</option>
-        <option value="">Engeland</option>
-        <option value="">Norwegen</option>
+        <option value="Nederland">Nederland</option>
+        <option value="Zweden">Zweden</option>
+        <option value="Duitsland">Duitsland</option>
+        <option value="Engeland">Engeland</option>
+        <option value="Norwegen">Norwegen</option>
     </select>
 </div>
 <br>
@@ -82,11 +79,11 @@ Geslacht:
 <div>
     <label for="">Aantal reisgenoten:</label>
     <select>
-        <option value="">0</option>
-        <option value="">1</option>
-        <option value="">2</option>
-        <option value="">3</option>
-        <option value="">4</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
     </select>
 </div>
 <br><br>
