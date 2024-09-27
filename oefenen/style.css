@@ -1,0 +1,38 @@
+html{
+    font-size: 40px;
+}
+
+
+h1{
+    color:aquamarine;
+    text-decoration: underline;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .box{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    border: 5px;
+    border-color: black;
+    border-style: dashed;
+    border-radius: 20px;
+    font-size: 40px;
+  }
+
+  p{
+    font-size: 2em;
+  }
+
+  body{
+    background-image: url(/);
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
