@@ -37,3 +37,34 @@ nav a {
 nav img {
   width: 5vw;
 }
+.bodyindex{
+  background-image: url(./img/background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.indextxt{
+  font-size: 5em;
+  margin: 0;
+  padding: 0;
+position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: white;
+}
+.indextxt2{
+  font-size: 5em;
+  margin: 0;
+  padding: 0;
+position: absolute;
+  text-align: center;
+  top: 57%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: white;
+}
+.htmlcss{
+  display: flex;
+  align-items: center;
+}

@@ -37,3 +37,66 @@ nav a {
 nav img {
   width: 5vw;
 }
+.indexbod{
+  background: url(./img/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.indextxt1{
+  font-size: 4em;
+  color: white;
+text-align: center;
+top: 60%;
+position: absolute;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.htmlcsstxt1{
+  font-size: 5em;
+  text-align: center;
+top: 30%;
+position: fixed;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.textboxhtml{
+  margin: 150px auto;
+
+  width: 40%;
+  align-items: center;
+  display: flex;
+  font-size: 2em;
+  position:fixed; top:40%; margin-left:71%; margin-right:50%;
+  transform: translate(-50%,-50%);
+}
+.htmlcssimg{
+width: 400px;
+position: fixed;
+top: 60%;
+transform: translate(-50%,-50%);
+left: 25%;
+}
+.blackbackground{
+background-color: black;
+}
+.whitetxt{
+  color: white;
+}
+.footer{
+  position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 100px;
+background-color: #00a8c7;
+color: white;
+text-align: center;
+font-size: 1.5rem;
+align-items: center;
+flex-wrap: wrap;
+margin: auto;
+padding: 4rem;
+}
