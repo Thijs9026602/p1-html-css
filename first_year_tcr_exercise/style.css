@@ -8,6 +8,8 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  height: 100vh;
+  
 }
 
 nav {
@@ -20,6 +22,7 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
 }
 nav ul {
   display: flex;
@@ -53,32 +56,6 @@ position: absolute;
 left: 50%;
 transform: translate(-50%,-50%);
 }
-.htmlcsstxt1{
-  font-size: 5em;
-  text-align: center;
-top: 30%;
-position: fixed;
-left: 50%;
-transform: translate(-50%,-50%);
-}
-
-.textboxhtml{
-  margin: 150px auto;
-
-  width: 40%;
-  align-items: center;
-  display: flex;
-  font-size: 2em;
-  position:fixed; top:40%; margin-left:71%; margin-right:50%;
-  transform: translate(-50%,-50%);
-}
-.htmlcssimg{
-width: 400px;
-position: fixed;
-top: 60%;
-transform: translate(-50%,-50%);
-left: 25%;
-}
 .blackbackground{
 background-color: black;
 }
@@ -99,4 +76,103 @@ align-items: center;
 flex-wrap: wrap;
 margin: auto;
 padding: 4rem;
+}
+.textboxhtml{
+width: 500px;
+float: right;
+position: absolute;
+left: 51%;
+top: 30%;
+}
+.htmlcssimg{
+  float: left;
+  margin: 100px;
+  position: absolute;
+  top: 20%;
+}
+.htmlcsstxt{
+  text-align: center;
+  top: 25%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 50px;
+}
+.watishtmltxt{
+  font-size: 30px;
+}
+.htmltxt{
+  font-size: 18px;
+}
+.jsimg{
+  float: right;
+  margin: 20px;
+}
+.jstxt{
+  float: left;
+  position: absolute;
+  color: white;
+top: 50%;
+padding-left: 100px;
+width: 600px;
+font-size: 15px;
+}
+.jstitle{
+  color: white;
+  text-align: center;
+  top: 25%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 50px;
+}
+.phpimg{
+  float: left;
+  margin: 20px;
+  width: 400px;
+}
+.phptitle{
+  text-align: center;
+  top: 25%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 50px;
+}
+.phptxt{
+  right: 1%;
+  position: absolute;
+top: 50%;
+padding-right: 100px;
+width: 600px;
+font-size: 15px;
+}
+.sqlimg{
+  width: 400px;
+  float: right;
+  margin: 20px;
+}
+.sqltitle{
+  color: white;
+  text-align: center;
+  top: 25%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 50px;
+}
+.sqltxt{
+  color: white;
+  position: absolute;
+top: 50%;
+padding-left: 100px;
+width: 600px;
+font-size: 15px;
+}
+.contacttitle{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 50px;
+  top: 25%;
 }
