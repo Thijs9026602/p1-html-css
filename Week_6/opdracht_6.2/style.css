@@ -1,0 +1,26 @@
+.flex-container{
+    width: 1200px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.itemb{
+height: 200px;
+width: 200px;
+background-color: blue;
+}
+.itemz{
+    height: 200px;
+width: 200px;
+background-color: black;
+}
+.itemr{
+    height: 200px;
+width: 200px;
+background-color: red;
+}
+.itemg{
+    height: 200px;
+width: 200px;
+background-color: green;
+}
