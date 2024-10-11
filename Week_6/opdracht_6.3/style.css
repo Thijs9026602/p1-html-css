@@ -1,0 +1,15 @@
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    color: blue;
+}
+.item{
+    padding-right: 25%;
+    color: blue;
+}
+.item2{
+    padding-left: 25%;
+    color: blue;
+}
