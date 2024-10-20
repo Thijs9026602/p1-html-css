@@ -177,12 +177,10 @@ font-size: 15px;
   top: 25%;
 }
 .dropdown-content{
+  display: flex;
+  flex-direction: column;
   display: none;
   position: absolute;
-  min-width: 20vh;
-  z-index: 1;
-  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
-
 }
 .dropdown-content a{
 background: white;
@@ -190,7 +188,7 @@ min-width: 20vw;
 padding: 0.8rem 1rem;
 display: block;
 color:#00a8c7;
-text-align: left;
+
 }
 .dropdown:hover .dropdown-content{
   display: block;
